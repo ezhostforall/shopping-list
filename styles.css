@@ -8,7 +8,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f4f4f9;
+  background-color: #f0f0f0;
   color: #333;
 }
 
@@ -16,6 +16,7 @@ h1 {
   margin-bottom: 20px;
   font-size: 2em;
   color: #333;
+  text-align: center;
 }
 
 /* Input and button styles */
@@ -23,6 +24,7 @@ div {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 label {
@@ -48,6 +50,7 @@ button {
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-left: 10px;
 }
 
 button:hover {
@@ -58,7 +61,7 @@ button:hover {
 ul {
   list-style-type: none;
   padding: 0;
-  width: 100%;
+  width: 300px;
   max-width: 400px;
 }
 
@@ -69,12 +72,16 @@ li {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   background-color: white;
 }
 
 li span {
   flex: 1;
+}
+
+li.purchased span {
+  text-decoration: line-through;
 }
 
 li button {
@@ -112,5 +119,10 @@ li button:hover {
 
   li {
     font-size: 0.9em;
+  }
+
+  ul {
+    width: 100%;
+    padding: 0 10px;
   }
 }

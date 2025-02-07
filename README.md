@@ -8,6 +8,7 @@ Welcome to the Shopping List repository! This project helps you manage your shop
 - Remove items from your shopping list
 - Mark items as purchased
 - View all items in your shopping list
+- Persist data using `localStorage`
 
 ## Installation
 
@@ -19,7 +20,7 @@ Welcome to the Shopping List repository! This project helps you manage your shop
     ```bash
     cd shopping-list
     ```
-3. Install dependencies:
+3. Install dependencies (if any):
     ```bash
     npm install
     ```
